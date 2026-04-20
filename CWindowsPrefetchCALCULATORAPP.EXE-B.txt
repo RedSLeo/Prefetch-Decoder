@@ -1,0 +1,35 @@
+C:\Windows\Prefetch\CALCULATORAPP.EXE-BF9881B2.pf
+
+----------------
+
+> std::cout << "[DEBUG] First 4 bytes (hex): " << std::hex << header -> signature << std::endl;
+
+4D = M
+
+41 = A
+
+4D = M
+
+04 = Special unprintable character
+
+-------------
+
+"gotcha" moment: Little-Endian Byte Order
+
+------------
+04 -> The exact ID of the compression algorithm Windows used
+
+-----------
+
+Why the invalid buffer? [0x0004] stands for Xpress Huffman compression
+
+----
+
+Successfully decompressed an undocumented Windows binary using hidden NT kernel APIs
+
+--------
+
+> Only prints to console - needs to write the data to .csv file so powershell can read it
+--------
+
+ >> "The Shipper" / The Glue

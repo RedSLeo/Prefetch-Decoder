@@ -1,0 +1,28 @@
+The Artifact Parser (Prefetch / Registry): Discovers traces left behind by user activity (e.g., Prefetch files, Amcache, Registry keys). Obtains unreadable characters of hex code and converts them into readable human language when finding traces of human activity.
+
+Focused Skill -->
+> Low-Level Systems: Parsing undocumented binary formats (Prefetch)
+> Software Engineering: Integrating C++ with a database
+> Data Persistence: Designing a scheme to store and query evidence
+--
+
+Architecture: Windows OS -> Prefetch File (.pf) -> C++ Tool -> SQL Database
+
+
+C++ Section (Reflecting ImHex) --
+Obtains a prefetch file that is scrambled in Hexedecimals. Decompresses them and structures it into human readable language (Not the average user readable)
+
+*Elaborate Further*
+
+ -- The Building --
+	> File I/O
+	> Memory Management
+	> Type Casting
+	> Dynamic API Loading
+--
+
+Tools:
+
+ImHex: Reverse-Engineering
+
+(Eric Zimmerman) PECmd.exe

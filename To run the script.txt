@@ -1,0 +1,3 @@
+To run the script:
+
+Be within the directory > run the following command: .\LogShipperps1

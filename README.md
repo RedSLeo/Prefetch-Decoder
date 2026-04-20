@@ -1,0 +1,2 @@
+# Prefetch Decoder
+A comprehensive digital forensics pipeline designed to extract hidden execution data from Windows machines. The core engine, written in C++, interfaces directly with Windows NT kernel APIs to decompress raw Prefetch files and map their binary structures. A custom PowerShell pipeline then automates the shipment of these logs into an SQL Server database, turning raw machine data into a queryable search

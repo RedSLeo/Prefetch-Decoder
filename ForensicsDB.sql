@@ -1,0 +1,14 @@
+CREATE DATABASE ForensicsDB;
+GO
+
+USE ForensicsDB;
+GO
+
+CREATE TABLE PrefetchLogs(
+	ID INT IDENTITY(1, 1) PRIMARY KEY,
+	RunDate DATETIME,
+	ExecutableName VARCHAR(100),
+	Hash VARCHAR(50)
+);
+
+SELECT * FROM PrefetchLogs;
